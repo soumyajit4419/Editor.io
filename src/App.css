@@ -1,0 +1,67 @@
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:hover {
+  background-color: rgb(127, 62, 187) !important;
+}
+
+body {
+  background-color: #202429 !important;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: scroll;
+  }
+  .footer {
+    display: none;
+  }
+}
+.pane.pane-top {
+  padding-top: 20px;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  justify-content: center !important;
+}
+
+.editor-lang {
+  padding: 5px !important;
+}
+
+.editor-text {
+  text-align: center;
+  background-color: rgb(49 48 51 / 87%);
+  color: rgba(250, 230, 194, 0.972);
+  font-size: 1.2em;
+  line-height: 2;
+  justify-content: center;
+}
+
+.pane-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.output-pane {
+  left: 0;
+  border: 0px solid;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: rgb(4, 11, 15) !important;
+  position: fixed;
+  bottom: 0;
+  height: 36px;
+  color: rgb(246, 225, 188);
+  text-align: center;
+  line-height: 2.5;
+  justify-content: center !important;
+}
