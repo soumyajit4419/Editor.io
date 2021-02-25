@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Editor from "./Editor";
+import Editor from "./WebEditor/Editor";
 import Footer from "./Footer";
 import { useLocalStorage } from "../Hooks/LocalStorage";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,8 +12,14 @@ function LaunguageManager() {
     return URL.createObjectURL(blob);
   };
 
-  const [htmlVal, updateHtmlStrorage] = useLocalStorage("html", "");
-  const [cssVal, updateCssStrorage] = useLocalStorage("css", "");
+  const htmlDefault = `<h2>Hello User</h2>`;
+
+  const cssDefault = `body{
+  text-align:center;
+}`;
+
+  const [htmlVal, updateHtmlStrorage] = useLocalStorage("html", htmlDefault);
+  const [cssVal, updateCssStrorage] = useLocalStorage("css", cssDefault);
   const [jsVal, updateJsStrorage] = useLocalStorage("js", "");
 
   const [html, updateHtml] = useState(htmlVal);

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./Components/Home";
-import LaunguageManager from "./Components/LaunguageManager";
+import WebEditor from "./Components/WebEditor";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/web" component={LaunguageManager} />
+        <Route path="/web" component={WebEditor} />
       </Switch>
     </Router>
   );
