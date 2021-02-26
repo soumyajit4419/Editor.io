@@ -84,9 +84,8 @@ function Home() {
               }}
             >
               With this online code editor, you can edit HTML, CSS and
-              JavaScript code, and view the result instantly in your browser.
+              JavaScript code, and live preview of site instantly.
             </h5>
-            <br />
             <Button variant="primary" style={btnStyle} as={Link} to="/web">
               Web Editor
             </Button>
@@ -101,7 +100,8 @@ function Home() {
                 paddingTop: "10px",
               }}
             >
-              Online markdown editor, to make your readme easily.
+              Online markdown editor, with custom toolbar to help you make your
+              readme easily.
             </h5>
             <Button variant="primary" style={btnStyle} as={Link} to="/web">
               Markdown Editor

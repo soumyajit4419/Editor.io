@@ -1,4 +1,4 @@
-# Code Web Anywhere
+# Editor.io
 
 ## https://editor.soumyajit.tech/
 
@@ -15,3 +15,4 @@
 - Auto Save of all your work
 - Supports JQuery
 - Autoclose of tags and brackets
+- Live Preview
