@@ -24,8 +24,8 @@
 
 ## Features
 
-- Suppports Html Tags
+- Supports Html Tags
 - Custom toolbar to make editing easier
 - Live Preview
 - Auto save of work
-- Download the file
+- Download the file Readme.md file
