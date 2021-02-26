@@ -1,14 +1,14 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import "../App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import sh1 from "../Assets/shape-1.svg";
 import sh2 from "../Assets/shape-2.svg";
 import sh3 from "../Assets/shape-3.svg";
 import sh6 from "../Assets/shape-6.svg";
 import homeImg from "../Assets/hero-img.png";
 import { Link } from "react-router-dom";
+import "../App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
   const wrapper = {
@@ -52,7 +52,9 @@ function Home() {
   };
 
   return (
-    <div>
+    <div
+      style={{ backgroundColor: "#2a283e", minHeight: "100vh", height: "auto" }}
+    >
       <Container style={wrapper}>
         <img src={sh1} alt="fig1" style={shape1} className="shape" />
         <img src={sh2} alt="fig2" style={shape2} className="shape" />
@@ -103,7 +105,7 @@ function Home() {
               Online markdown editor, with custom toolbar to help you make your
               readme easily.
             </h5>
-            <Button variant="primary" style={btnStyle} as={Link} to="/web">
+            <Button variant="primary" style={btnStyle} as={Link} to="/markdown">
               Markdown Editor
             </Button>
           </Col>

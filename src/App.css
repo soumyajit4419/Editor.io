@@ -3,33 +3,32 @@
   outline: none !important;
   box-shadow: none !important;
 }
+pre {
+  padding: 10px;
+  overflow: auto;
+  line-height: 1.45;
+  background-color: #ecf1f5;
+  border-radius: 6px;
+}
 
-.btn:hover {
+.btn-primary:hover {
   background-color: rgb(127, 62, 187) !important;
 }
 
-body {
-  background-color: #202429 !important;
-  overflow: hidden;
-}
-
 @media (max-width: 768px) {
-  body {
-    overflow: scroll;
-  }
   .footer {
     display: none;
   }
 }
 .pane.pane-top {
-  padding-top: 20px;
+  background-color: #202429;
   padding-left: 5px !important;
   padding-right: 5px !important;
   justify-content: center !important;
 }
 
 .editor-lang {
-  padding: 5px !important;
+  padding: 10px !important;
 }
 
 .editor-text {
@@ -41,10 +40,6 @@ body {
   justify-content: center;
 }
 
-.pane-bottom {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .output-pane {
   left: 0;
   border: 0px solid;
@@ -52,7 +47,7 @@ body {
   height: 50%;
   width: 100%;
   background-color: white;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .footer {
