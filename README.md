@@ -10,13 +10,13 @@
 
 ### Features:
 
-- No installation work online and build web pages.
+- No installation, work online and build web pages.
 - Auto Save of all your work
 - Supports JQuery
 - Autoclose of tags and brackets
 - Live Preview
 
-## Online Markdown editor for building Readme Files
+## Online Markdown editor for generating Readme Files
 
 <div align="center">
   <img alt="Demo" src="./src/Assets/markdown.gif"/>
@@ -24,6 +24,7 @@
 
 ## Features
 
+- GFM 
 - Supports Html Tags
 - Custom toolbar to make editing easier
 - Live Preview
