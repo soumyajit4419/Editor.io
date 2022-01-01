@@ -1,7 +1,7 @@
 <div align="center">
 
 # Editor.io
-## https://editor.soumyajit.tech/
+## https://editor.soumya-jit.tech/
 
 </div>
 
